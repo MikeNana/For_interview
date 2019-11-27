@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/memory_of_class",
+            "program": "${workspaceFolder}/My_banker",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

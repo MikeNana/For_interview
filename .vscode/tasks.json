@@ -6,7 +6,7 @@
             "type": "shell",
             "command": "g++",
             "args":[
-                "-g","memory_of_class.cpp","-lpthread","-o","memory_of_class"
+                "-g","My_banker.cpp","-lpthread","-o","My_banker"
             ],
             "group": {
                 "kind": "build",
