@@ -161,55 +161,6 @@ void Banker::banker()
         break;
     }
 }
-/*
-bool Banker::safe_detect()
-{
-    int l = 0, j = 0;
-    int work[n];
-    for(int i = 0; i < n; ++i)
-        work[i] = avaliable[i];
-    for(int i = 0; i < m; ++i)
-        finish[i] = false;
-    for(int i = 0; i < m; ++i)
-    {
-        if(finish[i] == true)
-            continue;
-        else
-        {
-            for(j = 0; j < n; ++j)
-            {
-                if(need[i][j] > work[j])
-                    break;
-            }
-            if(j == n)
-            {
-                finish[i] = true;
-                for(int k = 0; k < n; ++k)
-                    work[k] += allocation[i][k];
-                p[l++] = i;
-                i = -1;
-            }
-            else 
-                continue;
-        }
-    }
-
-    if(l == m)
-    {
-        cout << "系统是安全的" << endl;
-        cout << "安全序列为" << endl;
-        for(int i = 0; i < m; ++i)
-        {
-            cout << p[i];
-            if(i != m-1)
-                cout << "--->";
-        }
-        cout << endl;
-        return true;
-    }
-    return false;
-}
-*/
 bool Banker::safe_detect()
 {
     int j = 0, l = 0;
