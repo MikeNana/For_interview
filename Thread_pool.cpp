@@ -22,7 +22,7 @@ int main()
             })
         );
     }
-//此处使用了右值引用，为的是避免不必要的内存开销，支持链式对象的拷贝构造
+//此处使用了右值引用，是因为返回值只能用右值引用来调用
     for(auto && result: results)
         std::cout << result.get() << ' ';
     std::cout << std::endl;

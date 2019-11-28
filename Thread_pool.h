@@ -11,6 +11,7 @@
 #include <functional>
 #include <stdexcept>
 
+//最简单的实现，不包含动态管理线程池大小的功能，也没有用单例模式实现
 class ThreadPool {
 public:
     ThreadPool(size_t);
