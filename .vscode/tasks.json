@@ -6,7 +6,7 @@
             "type": "shell",
             "command": "g++",
             "args":[
-                "-g","My_banker.cpp","-lpthread","-o","My_banker"
+                "-g","My_thread_pool.cpp","-lpthread","-o","My_thread_pool"
             ],
             "group": {
                 "kind": "build",

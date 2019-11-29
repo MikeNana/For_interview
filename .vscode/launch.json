@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/My_banker",
+            "program": "${workspaceFolder}/My_thread_pool",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
