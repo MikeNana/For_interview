@@ -7,7 +7,7 @@ using std::atomic;
 
 //记录单例模式的几种写法
 //单例模式:保证一个类仅有一个实例，并提供该实例的一个全局访问点
-/*
+
 class singleton
 {
     //由于不能构造其他实例，因此将构造函数和拷贝构造函数放在私有成员函数中
@@ -22,7 +22,7 @@ public:
     static atomic<singleton*> m_instance1;
     static mutex m_mtx;
 };
-*/
+
 //初始化静态变量
 /*
 singleton* singleton::m_instance = nullptr;
