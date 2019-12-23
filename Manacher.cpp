@@ -43,5 +43,6 @@ int main()
         cin >> test;
         cout << manacher(test) << endl;
     }
+    cout << "done" << endl;
     return 0;
 }
